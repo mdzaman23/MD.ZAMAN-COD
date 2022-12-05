@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#001f4f;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 15px;
+}
+p{
+    color: #5f6a7f;
+}
+body {
+    font-size: 18px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.w-half{
+    width: 50%;
+}
+.w-third{
+    width:30%;
+    margin-left: 30px;
+}
+.section-padding{
+    padding: 50px 0;
+}
+.off-white{
+    background: #F0F6FF;
+}
+.text-white{
+    color: #fff;
+}
+.primary-text{
+    color: #001f4f;
+}
+.primary-bg{
+    background: #001f4f;
+}
+
+.header-area {
+    padding: 16px 0px;
+}
+.logo p{
+    color: #3B4963;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-top: 7px;
+}
+.logo span {
+    background: #61C6BD;
+    padding: 6px 10px;
+    display: inline-block;
+    border-radius: 0px 10px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li a{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.menu ul li a:hover {
+    color:#3685F8;
+    transition: 1s;
+}
+.header-btns .btn{
+    margin-left: 15px;
+}
+.btn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.btn:hover{
+    color:#fff;
+    background:#000;
+    transition: .5s;
+    cursor: pointer;
+}
+.btn-secondary{
+    background: rgb(192, 191, 191);
+    color: #3C82EB;
+}
+.btn-primary{
+    background: #3C82EB;
+    color: #fff;
+}
+
+.banner-text {
+    padding-right: 50px;
+}
+.banner-text h1 {
+    font-size: 50px;
+}
+.banner-text .btn{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.banner-text-bottom{
+    padding-top: 30px;
+}
+.banner-text-bottom button{
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.sponsor{
+    padding: 40px 0;
+}
+.sponsor h4{
+    min-width: 150px;
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+}
+.single-logo{
+    padding-left: 28px;
+}
+
+.t-text{
+    padding-left: 30px;
+}
+.t-text .btn{
+    margin-top: 20px;
+}
+
+.feature h2, h3{
+    color: #fff;
+}
+
+.customer h2{
+    padding-bottom: 15px;
+}
+.customer p{
+    padding: 7px 3px 5px 10px;
+}
+.customer .btn-primary{
+    margin-bottom: 25px;
+}
+
+
+.footer h3 {text-align: center;background: #333;color: #fff;margin-top: 25px;padding: 10px;}
+.footer{
+    padding: 25px 0;
+}
